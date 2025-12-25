@@ -30,7 +30,7 @@ const authorize = (requiredPermission) => {
         return res.status(403).json({ message: 'Access denied' });
       }
 
-      req.user = user; // attach user to request
+      req.user = user; 
       next();
     } catch (error) {
       console.error('Authorization error:', error.message);
