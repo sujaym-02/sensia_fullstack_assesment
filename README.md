@@ -12,25 +12,6 @@ The objective of this project is to build a functional full‑stack application 
 * Implements clean architecture and structured code
 * Demonstrates CRUD operations and validations
 
----
-
-##  Repository Structure
-
-sensia_fullstack_assesment/
-├── backend/                # Backend application
-│   ├── controllers/        # Request handling logic
-│   ├── models/             # Database models
-│   ├── routes/             # API routes
-│   ├── config/             # Configuration files
-│   ├── app.js / index.js   # Server entry point
-│   └── package.json
-│
-├── frontend/               # Frontend application
-│   ├── src/                # Source code
-│   ├── public/             # Static assets
-│   └── package.json
-│
-└── README.md               # Project documentation
 
 ## Tech Stack
 
@@ -46,7 +27,6 @@ sensia_fullstack_assesment/
 * React.js (or equivalent frontend framework)
 * HTML, CSS, JavaScript
 
----
 
 ## Features
 
@@ -56,7 +36,6 @@ sensia_fullstack_assesment/
 * Modular and scalable architecture
 * Frontend and backend integration
 
----
 
 ### Backend Setup
 
